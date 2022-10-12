@@ -29,6 +29,10 @@ nav .logo{
   font-family: 'Antic Didone', serif;
   font-size: 24px;
   color: #fff;
+  cursor: pointer;
+}
+nav .logo:hover{
+  transform: scale(1.1);
 }
 
 nav ul{
@@ -51,7 +55,10 @@ nav ul li a{
 nav ul li a:hover{
   background: rgba(0, 0, 0, 0.7);
   padding: 1rem;
+  transform: scale(1.1);
+  color: white;
 }
+
 
 /*HOME PAGE*/
 .home{
@@ -60,17 +67,19 @@ nav ul li a:hover{
   background-image: url(../images/wedding-background.png);
   background-size:cover;
   background-position: center;
-
+  background-attachment: fixed;
 }
 
 h1{
   margin: 0;
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-family: 'Antic Didone', serif;
   text-align: center;
   padding-top: 25%;
   color: #fff;
   line-height: 1.5;
+  text-shadow: 5px 5px 10px #000000;
+
 }
 
 .button{
