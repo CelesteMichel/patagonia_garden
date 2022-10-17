@@ -142,8 +142,8 @@ li {
   border: 1px solid #FFADB0;
   transform: scale(1.2);
 }
-/* INDEX HOME TESTIMONIALS */
 
+/* INDEX HOME TESTIMONIALS */
 #testimonials {
   background-color: #FDEFEC;
   padding-top: 50px;
@@ -314,6 +314,7 @@ span {
   font-size: 0.8em;
   text-align: center;
 }
-.name{
+
+.name {
   color: #18643A;
 }
