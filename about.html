@@ -1,80 +1,134 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scle=1.0">
-    <title>Patagonia Garden</title>
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Antic+Slab&family=Cinzel:wght@500&family=Merriweather&family=Montserrat&family=Noto+Serif+Georgian&family=Sacramento&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <nav>
-      <div class="logo">Patagonia Garden</div>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./about.html">About</a></li>
-          <li><a href="./packages.html">Packages</a></li>
-          <li><a href="./gallery.html">Gallery</a></li>
-          <li><a href="./contact.html">Contact</a></li>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scle=1.0">
+  <title>Patagonia Garden</title>
+  <!-- Icons Font Awesome -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <!-- CCS Stylesheets -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Antic+Slab&family=Cinzel:wght@500&family=Great+Vibes&family=Merriweather&family=Montserrat&family=Noto+Serif+Georgian&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">Patagonia Garden</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./packages.html">Packages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
         </ul>
     </nav>
+  </header>
 
-    <section id="About">
-      <div class="about-us">
-         <div class="boxes">
-           <img class="city" src="images/wedding-10.png" alt="LA city">
-              <h2>About Us</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu lacus dui. Nam tincidunt eros non volutpat sollicitudin. Suspendisse potenti. Pellentesque nec dui sed dolor auctor varius. Vivamus placerat, erat a finibus molestie, odio arcu blandit nunc, ut laoreet ligula orci vel augue. Nulla facilisi. Aliquam erat volutpat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Vivamus vel magna faucibus, placerat magna et, finibus magna. Donec est augue, posuere eu pretium vel, sollicitudin eu nulla. Nulla porttitor, sem vitae maximus accumsan, quam arcu vehicula leo, ac eleifend nunc elit eu odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam tempus volutpat dolor nec mollis. Proin egestas metus sit amet porttitor consectetur. Nam ut augue est. Phasellus non justo neque. Phasellus a arcu lacinia, vulputate dui non, ullamcorper tellus.</p>
-         </div>
-         <div class="boxes2">
-           <img class="table" src="images/wedding-table.png" alt="Wedding Table">
-           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat arcu dui, ut blandit diam pulvinar non. Nullam et consectetur enim. Aliquam sagittis urna in mauris laoreet euismod. Praesent dignissim odio eget rhoncus vehicula. Suspendisse non aliquet orci. Aenean nec orci vestibulum, euismod mauris non, fermentum justo. Nulla et ipsum et justo maximus ullamcorper in quis urna. Aliquam erat volutpat. Nunc tincidunt viverra lectus vel hendrerit. Aliquam sit amet euismod purus. Pellentesque quis leo id nisi finibus cursus eu efficitur turpis.</p>
-         </div>
-         <hr>
-         <h3>Perks from booking with us</h3>
-         <hr>
-       <section class="all-perks">
-         <div class="perks">
-           <h5>Floor Planning</h5>
-           <hr>
-           <p>Our Venue Coordination package includes a complimentary session of floor planning. That way when your decorator team arrives; everything is right where it should be.</p>
-         </div>
-         <div class="perks">
-           <h5>Timeline Creation</h5>
-           <hr>
-           <p> Making sure all your vendors and VIP guests are aware of your timeline helps keep everyone in sync and the event flowing smoothly.</p>
-         </div>
-         <div class="perks">
-           <h5>Setup & Cleanup</h5>
-           <hr>
-           <p>We enjoy taking out all the legwork so you can enjoy everything else. Booking at a Venue that is professionally staffed and service oriented goes a long way.</p>
-         </div>
-         <div class="perks">
-           <h5>Customer Service</h5>
-           <hr>
-           <p>Our Venue Coordinators provide professional, timely and top notch customer service. Now you can skip the stress and enjoy the engagement that much more.</p>
-         </div>
-         <div class="perks">
-           <h5>Wedding Coordination</h5>
-           <hr>
-           <p>Upgrade to Full Service Wedding Coordination for just $500. Get instant expert Wedding Advice on every decision leading up to your special day.</p>
-         </div>
-         <div class="perks">
-           <h5>Cuisine & Bar Service</h5>
-           <hr>
-           <p>Fine Dining complimenting the most flexible bar packages in the Metroplex! Start with a Cash Bar from the start or put a deposit to cover the event tab for a  certain duration.</p>
-         </div>
-         </section>
 
+  <section id="About">
+    <div class="container-xl">
+      <div class="row">
+        <div class="city col-xl-6 col-lg-6 col-sm">
+          <img class="city-img" src="images/wedding-10.png" alt="LA city">
+        </div>
+        <div class="city col-xl-6 col-lg-6 col-sm">
+          <h2>About Us</h2>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu lacus dui. Nam tincidunt eros non volutpat sollicitudin. Suspendisse potenti. Pellentesque nec dui sed dolor auctor varius. Vivamus placerat, erat a finibus molestie, odio
+            arcu blandit nunc, ut laoreet ligula orci vel augue. Nulla facilisi. Aliquam erat volutpat. Vivamus vel magna faucibus, placerat magna et, finibus magna. Donec est augue,
+            posuere
+            eu pretium vel, sollicitudin eu nulla. Nulla porttitor, sem vitae maximus accumsan, quam arcu vehicula leo, ac eleifend nunc elit eu odio. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Nam
+            tempus
+            volutpat dolor nec mollis.</p>
+        </div>
       </div>
-      </section>
-
-      <div class="footer">
-        <p class="name">© Patagonia Garden 2022 / Celeste Michel</p>
+      <div class="row">
+        <div class="more-info col-xl-6 col-lg-6 col-sm">
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat arcu dui, ut blandit diam pulvinar non. Nullam et consectetur enim. Aliquam sagittis urna in mauris laoreet euismod. Praesent dignissim odio eget rhoncus vehicula.
+            Suspendisse non aliquet orci. Aenean nec orci vestibulum, euismod mauris non, fermentum justo. Nulla et ipsum et justo maximus ullamcorper in quis urna. Aliquam erat volutpat. Nunc tincidunt viverra lectus vel hendrerit. Aliquam sit
+            amet
+            euismod purus. Pellentesque quis leo id nisi finibus cursus eu efficitur turpis.</p>
+        </div>
+        <div class="more-info col-xl-6 col-lg-6 col-sm">
+          <img class="info-img" src="images/wedding-table.png" alt="Wedding Table">
+        </div>
       </div>
+    </div>
+  </section>
 
-  </body>
+<section id="all-perks">
+<div class="container-xl">
+  <hr>
+  <h2>Perks from booking with us</h2>
+  <hr>
+
+    <div class="row">
+      <div class="perks col-xl-4 col-lg-4 col-sm-6 col-xs">
+        <i class="icon fa-regular fa-calendar"></i>
+        <h5>Floor Planning</h5>
+        <hr>
+        <p class="about-perks">Our Venue Coordination package includes a complimentary session of floor planning. That way when your decorator team arrives; everything is right where it should be.</p>
+      </div>
+      <div class="perks col-xl-4 col-lg-4 col-sm-6 col-xs">
+        <i class="icon fa-regular fa-clock"></i>
+        <h5>Timeline Creation</h5>
+        <hr>
+        <p class="about-perks"> Making sure all your vendors and VIP guests are aware of your timeline helps keep everyone in sync and the event flowing smoothly.</p>
+      </div>
+      <div class="perks col-xl-4 col-lg-4 col-sm-6 col-xs">
+        <i class="icon fa-solid fa-broom"></i>
+        <h5>Setup & Cleanup</h5>
+        <hr>
+        <p class="about-perks">We enjoy taking out all the legwork so you can enjoy everything else. Booking at a Venue that is professionally staffed and service oriented goes a long way.</p>
+      </div>
+      <div class="perks col-xl-4 col-lg-4 col-sm-6 col-xs">
+        <i class="icon fa-solid fa-trophy"></i>
+        <h5>Customer Service</h5>
+        <hr>
+        <p class="about-perks">Our Venue Coordinators provide professional, timely and top notch customer service. Now you can skip the stress and enjoy the engagement that much more.</p>
+      </div>
+      <div class="perks col-xl-4 col-lg-4 col-sm-6 col-xs">
+        <i class="icon fa-solid fa-users"></i>
+        <h5>Wedding Coordination</h5>
+        <hr>
+        <p class="about-perks">Upgrade to Full Service Wedding Coordination for just $500. Get instant expert Wedding Advice on every decision leading up to your special day.</p>
+      </div>
+      <div class="perks col-xl-4 col-lg-4 col-sm-6 col-xs">
+        <i class="icon fa-solid fa-wine-glass"></i>
+        <h5>Cuisine & Bar Service</h5>
+        <hr>
+        <p class="about-perks">Fine Dining complimenting the most flexible bar packages in the Metroplex! Start with a Cash Bar from the start or put a deposit to cover the event tab for a certain duration.</p>
+      </div>
+    </div>
+  </div>
+  </section>
+
+
+  <div class="footer">
+    <p class="name">© Patagonia Garden 2022 / Celeste Michel</p>
+  </div>
+
+  <!-- Bootstrap script -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+
 </html>

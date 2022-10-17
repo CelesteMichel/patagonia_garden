@@ -1,46 +1,127 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scle=1.0">
-    <title>Patagonia Garden</title>
-    <link rel="icon" href="favicon.ico">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Antic+Slab&family=Cinzel:wght@500&family=Merriweather&family=Montserrat&family=Noto+Serif+Georgian&family=Sacramento&display=swap" rel="stylesheet">
-  </head>
 
-  <body>
-    <nav>
-      <div class="logo">Patagonia Garden</div>
-        <ul>
-          <li><a href="./index.html">Home</a></li>
-          <li><a href="./about.html">About</a></li>
-          <li><a href="./packages.html">Packages</a></li>
-          <li><a href="./gallery.html">Gallery</a></li>
-          <li><a href="./contact.html">Contact</a></li>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scle=1.0">
+  <title>Patagonia Garden</title>
+  <link rel="icon" href="favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Antic+Didone&family=Antic+Slab&family=Cinzel:wght@500&family=Great+Vibes&family=Merriweather&family=Montserrat&family=Noto+Serif+Georgian&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="#">Patagonia Garden</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./packages.html">Packages</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./gallery.html">Gallery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contact</a>
+          </li>
         </ul>
     </nav>
+  </header>
 
-    <section class="home">
-      <div>
-        <h1>Let us bring the wedding of your dreams to life</h1>
+  <section class="home">
+    <div class="container">
+      <h1 class="home-intro">Let us bring the wedding of your dreams to life</h1>
+    </div>
+    <div class="button">
+      <a href="./contact.html" class="btn">SCHEDULE A TOUR</a>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <div class="container">
+      <hr>
+      <h2>Love notes from our couples</h2>
+      <hr>
+
+
+      <div id="carousel-testimonial" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class=" col-sm-6">
+                <div>
+                  <h3 class="testimonial-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus in dictum mauris. Duis consequat elit nec magna faucibus, et porta enim semper. Aliquam et convallis tellus, et ultrices ex. Cras et
+                    ligula
+                    eget magna efficitur mollis ut eu purus. Phasellus a ultricies velit, in sodales neque. Praesent aliquet est ac.</h3>
+                  <em>Shannon & John B.</em>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <img class="testimonial-img" src="images/testimonial1.png" class="d-block w-100" alt="couple-wedding">
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row">
+              <div class=" col-sm-6">
+                <div>
+                  <h3 class="testimonial-text">Fusce feugiat eros ac erat ultrices ornare. Donec suscipit lobortis sem, egestas fermentum eros rhoncus ut. Nam laoreet augue eget urna fermentum, ac elementum mauris egestas. Aliquam congue nunc eget diam
+                    faucibus ullamcorper. Sed tincidunt id urna.</h3>
+                    <em>Alix & Brian S.</em>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <img class="testimonial-img" src="images/testimonial2.png" class="d-block w-100" alt="couple-wedding">
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="row">
+              <div class=" col-sm-6">
+                <div>
+                  <h3 class="testimonial-text">Curabitur tempus hendrerit diam vel tempor. Sed purus erat, aliquet at facilisis ac, mattis vel lorem. Donec maximus metus quis augue consequat, sit amet pellentesque leo aliquet. Donec vestibulum dapibus est,
+                    eu consequat nibh condimentum eget. Duis auctor porttitor porttitor. Cras ut mauris hendrerit, lobortis orci a, laoreet magna. Suspendisse sem mi, ullamcorper eu risus sed, sollicitudin elementum justo.</h3>
+                    <em>Kate & David A.</em>
+                </div>
+              </div>
+              <div class="col-sm-6">
+                <img class="testimonial-img" src="images/testimonial3.png" class="d-block w-100" alt="couple-wedding">
+              </div>
+            </div>
+          </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-testimonial" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel-testimonial" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        </button>
       </div>
-      <div class="button">
-         <a class="btn" href="./contact.html">SCHEDULE A TOUR</a>
-      </div>
 
-    </section>
-
-    <div class="footer">
-      <p class="name">© Patagonia Garden 2022 / Celeste Michel</p>
     </div>
 
+  </section>
 
+  <div class="footer">
+    <p class="name">© Patagonia Garden 2022 / Celeste Michel</p>
+  </div>
 
+  <!-- Bootstrap script -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-  </body>
+</body>
+
 </html>
