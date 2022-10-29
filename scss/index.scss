@@ -1,0 +1,14 @@
+/*MISC*/
+@import "./misc/normalize";
+@import "./misc/variables";
+
+/*PARTIALS*/
+@import "./partials/footer";
+@import "./partials/header";
+
+/*PAGES*/
+@import "./pages/index";
+@import "./pages/about";
+@import "./pages/packages";
+@import "./pages/gallery";
+@import "./pages/contact";

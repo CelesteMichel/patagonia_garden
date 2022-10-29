@@ -214,6 +214,9 @@ em {
 }
 
 /*CONTACT*/
+.section-contact{
+  margin-bottom: 5%;
+}
 .container {
   max-width: 840px;
   margin: 0 auto;
@@ -309,4 +312,4 @@ span {
 
 .name {
   color: #18643A;
-}
+} 

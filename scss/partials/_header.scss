@@ -1,0 +1,33 @@
+/*NAVBAR*/
+.navbar {
+  background-color: #C7D9B7;
+  box-shadow: 0 2px 5px;
+  padding-right: 3%;
+
+  .navbar-brand {
+    color: #18643A;
+    font-size: 1.8em;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bolder;
+    padding-left: 3%;
+    transition: all 0.3s ease-in-out, color 0.3s ease-in-out;
+
+    &:hover {
+      transform: scale(1.1);
+      color: #FF8589;
+    }
+  }
+
+  .nav-item {
+    padding-left: 10px;
+
+    .nav-link {
+      color: #18643A;
+      text-transform: uppercase;
+
+      &:hover {
+        color: #FF8589;
+      }
+    }
+  }
+}

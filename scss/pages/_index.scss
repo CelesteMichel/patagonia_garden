@@ -1,0 +1,76 @@
+/*HOME PAGE*/
+.home {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/wedding-background-home.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+
+  .home-intro {
+    font-size: 1.8em;
+    font-family: 'Antic Didone', serif;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 50%;
+    color: #fff;
+    text-shadow: 5px 5px 10px #000000;
+  }
+
+  .button {
+    text-align: center;
+
+    .btn {
+      background-color: transparent;
+      border-radius: 2px;
+      border: 1px solid #18643A;
+      display: inline-block;
+      cursor: pointer;
+      color: #ffffff;
+      font-family: Arial;
+      font-size: 16px;
+      padding: 12px;
+      text-decoration: none;
+      text-shadow: 0 1px 0 #2f6627;
+      transition: all 0.3s ease-in-out, color 0.3s ease-in-out;
+
+      &:hover {
+        background-color: transparent;
+        color: #ffffff;
+        border: 1px solid #FFADB0;
+        transform: scale(1.2);
+      }
+    }
+  }
+}
+
+/* INDEX HOME TESTIMONIALS */
+#testimonials {
+  background-color: #FDEFEC;
+  padding-top: 50px;
+  padding-bottom: 30px;
+}
+
+em {
+  color: #FFADB0;
+  font-size: 1.2em;
+  font-family: 'Antic Didone', serif;
+}
+
+.testimonial-img {
+  width: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  color: #737373;
+  padding-top: 5%;
+  text-align: left;
+}
+
+@media (max-width:576px) {
+  .home {
+    background-image: url("../images/wedding-background.png");
+  }
+}

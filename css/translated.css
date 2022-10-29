@@ -1,0 +1,185 @@
+/*MISC*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2em;
+  line-height: 1.5;
+  overflow-x: hidden; }
+
+hr {
+  border: 1px solid #18643A;
+  color: #18643A; }
+
+h2 {
+  font-size: 1.8em;
+  font-family: 'Antic Didone', serif;
+  font-weight: bolder;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #18643A; }
+
+h3 {
+  font-family: 'Merriweather', serif;
+  font-size: 1.2em;
+  text-align: center; }
+
+h4 {
+  font-family: 'Cinzel', serif;
+  font-size: 1.5em;
+  color: #FFADB0; }
+
+h5 {
+  font-size: 1.5em;
+  color: #18643A;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Antic Didone', serif; }
+
+h6 {
+  text-align: center;
+  font-size: 18px; }
+
+p {
+  color: #737373; }
+
+li {
+  color: #737373; }
+
+/*PARTIALS*/
+/*FOOTER*/
+.footer {
+  background-color: #C7D9B7;
+  border-top: 1px solid #5F6062;
+  filter: drop-shadow(0 0 3px black);
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 0.8em;
+  text-align: center; }
+  .footer .name {
+    color: #18643A; }
+
+/*NAVBAR*/
+.navbar {
+  background-color: #C7D9B7;
+  box-shadow: 0 2px 5px;
+  padding-right: 3%; }
+  .navbar .navbar-brand {
+    color: #18643A;
+    font-size: 1.8em;
+    font-family: 'Great Vibes', cursive;
+    font-weight: bolder;
+    padding-left: 3%;
+    transition: all 0.3s ease-in-out, color 0.3s ease-in-out; }
+    .navbar .navbar-brand:hover {
+      transform: scale(1.1);
+      color: #FF8589; }
+  .navbar .nav-item {
+    padding-left: 10px; }
+    .navbar .nav-item .nav-link {
+      color: #18643A;
+      text-transform: uppercase; }
+      .navbar .nav-item .nav-link:hover {
+        color: #FF8589; }
+
+/*PAGES*/
+/*HOME PAGE*/
+.home {
+  width: 100%;
+  height: 100vh;
+  background-image: url("../images/wedding-background-home.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; }
+  .home .home-intro {
+    font-size: 1.8em;
+    font-family: 'Antic Didone', serif;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 1.5;
+    padding-top: 50%;
+    color: #fff;
+    text-shadow: 5px 5px 10px #000000; }
+  .home .button {
+    text-align: center; }
+    .home .button .btn {
+      background-color: transparent;
+      border-radius: 2px;
+      border: 1px solid #18643A;
+      display: inline-block;
+      cursor: pointer;
+      color: #ffffff;
+      font-family: Arial;
+      font-size: 16px;
+      padding: 12px;
+      text-decoration: none;
+      text-shadow: 0 1px 0 #2f6627;
+      transition: all 0.3s ease-in-out, color 0.3s ease-in-out; }
+      .home .button .btn:hover {
+        background-color: transparent;
+        color: #ffffff;
+        border: 1px solid #FFADB0;
+        transform: scale(1.2); }
+
+/* INDEX HOME TESTIMONIALS */
+#testimonials {
+  background-color: #FDEFEC;
+  padding-top: 50px;
+  padding-bottom: 30px; }
+
+em {
+  color: #FFADB0;
+  font-size: 1.2em;
+  font-family: 'Antic Didone', serif; }
+
+.testimonial-img {
+  width: 100%;
+  margin: 20px; }
+
+.testimonial-text {
+  color: #737373;
+  padding-top: 5%;
+  text-align: left; }
+
+@media (max-width: 576px) {
+  .home {
+    background-image: url("../images/wedding-background.png"); } }
+
+/*ABOUT US*/
+.city-img {
+  width: 100%; }
+
+.city {
+  padding: 5% 5%;
+  align-items: center; }
+
+.info-img {
+  width: 100%; }
+
+.more-info {
+  padding: 0 5% 5%;
+  align-items: center; }
+
+#all-perks {
+  background: #EEFCEE;
+  padding-top: 2%; }
+
+.perks {
+  padding: 4% 4%; }
+
+.about-perks {
+  color: #737373;
+  font-size: 0.8em; }
+
+.icon {
+  font-size: 30px;
+  color: #18643A;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center; }
+
+.icon:hover {
+  color: #EC5432;
+  transform: scale(1.2); }

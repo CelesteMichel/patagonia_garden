@@ -1,0 +1,45 @@
+/*ABOUT US*/
+.city-img {
+  width: 100%;
+}
+
+.city {
+  padding: 5% 5%;
+  align-items: center;
+}
+
+.info-img {
+  width: 100%;
+}
+
+.more-info {
+  padding: 0 5% 5%;
+  align-items: center;
+}
+
+#all-perks {
+  background: #EEFCEE;
+  padding-top: 2%;
+}
+
+.perks {
+  padding: 4% 4%;
+}
+
+.about-perks {
+  color: #737373;
+  font-size: 0.8em;
+}
+
+.icon {
+  font-size: 30px;
+  color: #18643A;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.icon:hover {
+  color: #EC5432;
+  transform: scale(1.2);
+}
