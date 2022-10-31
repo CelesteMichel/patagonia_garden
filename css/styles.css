@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   padding: 0;
   font-family: 'Montserrat', sans-serif;
@@ -54,10 +54,10 @@ p {
 
 li {
   color: #737373;
-}
+} */
 
 /*NAVBAR*/
-.navbar {
+/* .navbar {
   background-color: #C7D9B7;
   box-shadow: 0 2px 5px;
   padding-right: 3%;
@@ -88,10 +88,10 @@ li {
 
 .nav-link:hover {
   color: #FF8589
-}
+} */
 
 /*HOME PAGE*/
-.home {
+/* .home {
   width: 100%;
   height: 100vh;
   background-image: url(../images/wedding-background-home.jpeg);
@@ -141,10 +141,10 @@ li {
   color: #ffffff;
   border: 1px solid #FFADB0;
   transform: scale(1.2);
-}
+} */
 
 /* INDEX HOME TESTIMONIALS */
-#testimonials {
+/* #testimonials {
   background-color: #FDEFEC;
   padding-top: 50px;
   padding-bottom: 30px;
@@ -165,10 +165,10 @@ em {
   color: #737373;
   padding-top: 5%;
   text-align: left;
-}
+} */
 
 /*ABOUT US*/
-.city-img {
+/* .city-img {
   width: 100%;
 }
 
@@ -211,10 +211,10 @@ em {
 .icon:hover {
   color: #EC5432;
   transform: scale(1.2);
-}
+} */
 
 /*CONTACT*/
-.section-contact{
+/* .section-contact{
   margin-bottom: 5%;
 }
 .container {
@@ -259,10 +259,10 @@ textarea {
   margin-bottom: 32px;
   padding-left: 64px;
   padding-right: 64px;
-}
+} */
 
 /*PACKAGES*/
-#Amenities {
+/* #Amenities {
   margin-bottom: 3rem;
 }
 
@@ -292,15 +292,15 @@ span {
 .packages-introduction {
   font-size: 0.8em;
   text-align: center;
-}
+} */
 
 /*GALLERY*/
-#carousel-wedding-img {
+/* #carousel-wedding-img {
   padding: 5% 0;
-}
+} */
 
 /*FOOTER*/
-.footer {
+/* .footer {
   background-color: #C7D9B7;
   border-top: 1px solid #5F6062;
   filter: drop-shadow(0 0 3px black);
@@ -312,4 +312,4 @@ span {
 
 .name {
   color: #18643A;
-} 
+} */

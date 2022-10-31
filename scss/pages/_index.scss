@@ -44,31 +44,36 @@
     }
   }
 }
-
 /* INDEX HOME TESTIMONIALS */
 #testimonials {
   background-color: #FDEFEC;
   padding-top: 50px;
   padding-bottom: 30px;
-}
 
-em {
-  color: #FFADB0;
-  font-size: 1.2em;
-  font-family: 'Antic Didone', serif;
-}
+  .container {
+    max-width: 840px;
+    margin: 0 auto;
+    padding-left: 32px;
+    padding-right: 32px;
 
-.testimonial-img {
-  width: 100%;
-  margin: 20px;
-}
+    em {
+      color: #FFADB0;
+      font-size: 1.2em;
+      font-family: 'Antic Didone', serif;
+    }
 
-.testimonial-text {
-  color: #737373;
-  padding-top: 5%;
-  text-align: left;
-}
+    .testimonial-img {
+      width: 100%;
+      margin: 20px;
+    }
 
+    .testimonial-text {
+      color: #737373;
+      padding-top: 5%;
+      text-align: left;
+    }
+  }
+}
 @media (max-width:576px) {
   .home {
     background-image: url("../images/wedding-background.png");

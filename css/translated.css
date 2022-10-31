@@ -128,58 +128,122 @@ li {
   background-color: #FDEFEC;
   padding-top: 50px;
   padding-bottom: 30px; }
-
-em {
-  color: #FFADB0;
-  font-size: 1.2em;
-  font-family: 'Antic Didone', serif; }
-
-.testimonial-img {
-  width: 100%;
-  margin: 20px; }
-
-.testimonial-text {
-  color: #737373;
-  padding-top: 5%;
-  text-align: left; }
+  #testimonials .container {
+    max-width: 840px;
+    margin: 0 auto;
+    padding-left: 32px;
+    padding-right: 32px; }
+    #testimonials .container em {
+      color: #FFADB0;
+      font-size: 1.2em;
+      font-family: 'Antic Didone', serif; }
+    #testimonials .container .testimonial-img {
+      width: 100%;
+      margin: 20px; }
+    #testimonials .container .testimonial-text {
+      color: #737373;
+      padding-top: 5%;
+      text-align: left; }
 
 @media (max-width: 576px) {
   .home {
     background-image: url("../images/wedding-background.png"); } }
 
 /*ABOUT US*/
-.city-img {
-  width: 100%; }
-
 .city {
-  padding: 5% 5%;
+  padding: 5%;
   align-items: center; }
-
-.info-img {
-  width: 100%; }
+  .city .city-img {
+    width: 100%; }
 
 .more-info {
   padding: 0 5% 5%;
   align-items: center; }
+  .more-info .info-img {
+    width: 100%; }
 
 #all-perks {
   background: #EEFCEE;
   padding-top: 2%; }
+  #all-perks .perks {
+    padding: 4%; }
+    #all-perks .perks .about-perks {
+      color: #737373;
+      font-size: 0.8em; }
+  #all-perks .icon {
+    font-size: 30px;
+    color: #18643A;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center; }
+    #all-perks .icon:hover {
+      color: #EC5432;
+      transform: scale(1.2); }
 
-.perks {
-  padding: 4% 4%; }
+/*PACKAGES*/
+#Amenities {
+  margin-bottom: 3rem; }
+  #Amenities .amenities-item {
+    width: 100%;
+    padding-right: 2rem; }
 
-.about-perks {
-  color: #737373;
-  font-size: 0.8em; }
+#packages {
+  background-color: #FDEFEC;
+  padding-top: 3rem;
+  padding-bottom: 5rem; }
+  #packages .packages-introduction {
+    font-size: 0.8em;
+    text-align: center; }
+  #packages .example {
+    background-color: #EEFCEE;
+    border: 5px double #18643A;
+    padding: 5%;
+    margin-right: 5%;
+    margin-top: 5%; }
+    #packages .example span {
+      color: #18643A; }
 
-.icon {
-  font-size: 30px;
-  color: #18643A;
-  padding-bottom: 10px;
-  display: flex;
-  justify-content: center; }
+/*GALLERY*/
+.container {
+  max-width: 840px;
+  margin: 0 auto;
+  padding-left: 32px;
+  padding-right: 32px; }
+  .container #carousel-wedding-img {
+    padding-bottom: 10%; }
 
-.icon:hover {
-  color: #EC5432;
-  transform: scale(1.2); }
+/*CONTACT*/
+.section-contact {
+  margin-bottom: 5%; }
+  .section-contact .container {
+    max-width: 840px;
+    margin: 0 auto;
+    padding-left: 32px;
+    padding-right: 32px; }
+    .section-contact .container form {
+      background-color: #EEFCEE;
+      padding: 16px 32px;
+      border: 5px double #18643A;
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); }
+      .section-contact .container form .form-group {
+        margin-bottom: 32px;
+        margin-top: 32px;
+        font-size: 20px;
+        padding-left: 10%;
+        padding-right: 10%; }
+        .section-contact .container form .form-group .form-element {
+          appearance: none;
+          border: none;
+          outline: none;
+          display: block;
+          width: 100%;
+          padding: 12px 16px;
+          background-color: #DCF9DC;
+          cursor: pointer; }
+          .section-contact .container form .form-group .form-element .submit-group {
+            margin-bottom: 32px;
+            padding-left: 64px;
+            padding-right: 64px; }
+          .section-contact .container form .form-group .form-element textarea {
+            resize: none;
+            min-height: 100px; }

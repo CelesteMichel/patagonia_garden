@@ -1,0 +1,32 @@
+/*PACKAGES*/
+#Amenities {
+  margin-bottom: 3rem;
+
+  .amenities-item {
+    width: 100%;
+    padding-right: 2rem;
+  }
+}
+
+#packages {
+  background-color: #FDEFEC;
+  padding-top: 3rem;
+  padding-bottom: 5rem;
+
+  .packages-introduction {
+    font-size: 0.8em;
+    text-align: center;
+  }
+
+  .example {
+    background-color: #EEFCEE;
+    border: 5px double #18643A;
+    padding: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+
+    span {
+      color: #18643A;
+    }
+  }
+}
