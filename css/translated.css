@@ -200,6 +200,8 @@ li {
     padding: 5%;
     margin-right: 5%;
     margin-top: 5%; }
+    #packages .example .small-package {
+      margin-right: 5%; }
     #packages .example span {
       color: #18643A; }
 
