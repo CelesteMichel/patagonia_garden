@@ -194,14 +194,13 @@ li {
   #packages .packages-introduction {
     font-size: 0.8em;
     text-align: center; }
+  #packages .minimun-cost {
+    margin-right: 5%; }
   #packages .example {
     background-color: #EEFCEE;
     border: 5px double #18643A;
     padding: 5%;
-    margin-right: 5%;
     margin-top: 5%; }
-    #packages .example .small-package {
-      margin-right: 5%; }
     #packages .example span {
       color: #18643A; }
 
